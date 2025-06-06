@@ -1,12 +1,14 @@
-import { PetsApp } from "../components/PetsApp";
+import { PetsApp } from '../components/PetsApp';
+import { ShibaCounter } from '../components/ShibaCounter';
 
 export function meta({}) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "React State Examples" },
+    { name: "description", content: "React Context and Redux examples" },
   ];
 }
 
 export default function Home() {
-  return <PetsApp />;
+  // return <PetsApp />;
+  return <ShibaCounter />;
 }
